@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/FUTURA55REGULAR.TTF");
+}
+
+@font-face {
+  font-family: "FuturaLight";
+  src: url("/fonts/FUTURA45LIGHT.TTF");
+}
+
+@font-face {
+  font-family: "FuturaBold";
+  src: url("/fonts/FUTURA75BOLD.TTF");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  font-family: "Futura", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 20px;
+
+  background-color: #07086c;
+  color: white;
+  gap: 20px;
+}
+.header_logo {
+  width: 155px;
+}
+.navigation > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  gap: 30px;
+
+  font-family: "FuturaLight", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.header_contact {
+  text-shadow:
+    -2px 2px 0 black,
+    2px 2px 0 black,
+    2px -2px 0 black,
+    -2px -2px 0 black;
+  font-size: 20px;
+  position: relative;
+}
+
+.header_contact::before {
+  content: "";
+  background: url("./img/phone.svg") no-repeat center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+}
+.main-container {
+}
+.form-banner {
+  background-color: #07086c;
+  box-shadow: 0 -51px #07086c;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "FuturaBold";
+  font-size: 50px !important;
+}
+
+h1 > span {
+  font-weight: normal;
+  text-transform: none;
+  color: #969af7;
+}
+
+.form_about {
+}
+.form_about_description {
+}
+.request {
+}
+.form_guarantee {
+}
+.advantages {
+}
+.advantages_description {
+}
+.cards {
+}
+.card {
+}
+.card_picture {
+}
+.card_name {
+}
+.card_description {
+}
+.manufacturers {
+  background-color: #07086c;
+  color: white;
+}
+.slider {
+}
+.slider_arrow-left {
+}
+.slider_cards {
+}
+.slider_card {
+}
+.slider_arrow-right {
+}
+.manufacturers_description {
+}
+.workflow {
+}
+.steps {
+}
+.step {
+}
+.step_number {
+}
+.step_name {
+}
+.stp_description {
+}
+.faq {
+  background-color: #07086c;
+  color: white;
+}
+.accordion {
+}
+.accordion-item {
+}
+.accordion-header {
+}
+.accordion-button {
+}
+.collapsed {
+}
+.accordion-collapse {
+}
+.collapse {
+}
+.accordion-body {
+}
+.footer-container {
+}
+.footer_logo {
+}
+.footer_contact {
+}
